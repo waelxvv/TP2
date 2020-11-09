@@ -18,10 +18,6 @@ public class MainActivity extends AppCompatActivity {
             outState.putBoolean("reply_visible", true);
             outState.putString("reply_text", mshowCount.getText().toString());
         }
-        if (editText.getVisibility() == View.VISIBLE) {
-            outState.putBoolean("reply_visible", true);
-            outState.putString("reply_text", editText.getText().toString());
-        }
     }
 
     @Override
